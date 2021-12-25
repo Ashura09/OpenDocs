@@ -1,0 +1,139 @@
+body {
+    overflow: hidden;
+}
+
+#main {
+    transition: transform 2s;
+    position: relative;
+    left: 22vw;
+    box-shadow: 0px 0px 1em black;
+    transform: scale(100%, 100%);
+}
+
+#main:hover {
+    transform: scale(101%, 101%);
+}
+
+#writerwin {
+    transition: transform 1s;
+    position: absolute;
+    display: inline;
+    bottom: 1rem;
+    right: 1rem;
+    box-shadow: 0px 0px 1em black;
+    transform: scale(100%, 100%);
+}
+
+#writerwin:hover {
+    transform: scale(105%, 105%);
+}
+
+#sheetwin {
+    transition: transform 1s;
+    position: absolute;
+    display: inline;
+    bottom: 1rem;
+    left: 1rem;
+    box-shadow: 0px 0px 1em black;
+    transform: scale(100%, 100%);
+}
+
+#drawwin {
+    transition: transform 1s;
+    position: absolute;
+    display: inline;
+    bottom: 1rem;
+    left: 22rem;
+    box-shadow: 0px 0px 1em black;
+    transform: scale(100%, 100%);
+}
+
+#presentwin {
+    transition: transform 1s;
+    position: absolute;
+    display: inline;
+    bottom: 1rem;
+    right: 22rem;
+    box-shadow: 0px 0px 1em black;
+    transform: scale(100%, 100%);
+}
+
+#writertitle {
+    position: absolute;
+    display: inline;
+    bottom: 8rem;
+    right: 8.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    transform: scale(200%, 200%);
+}
+
+#writerdesc {
+    position: absolute;
+    display: inline;
+    bottom: 4.5rem;
+    right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    word-wrap: break-word;
+    width: 16rem;
+}
+
+#writerdownload {
+    position: absolute;
+    display: inline;
+    bottom: 3rem;
+    right: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    word-wrap: break-word;
+    width: 13.5rem;
+}
+
+#sheetwin:hover {
+    transform: scale(105%, 105%);
+}
+
+#drawwin:hover {
+    transform: scale(105%, 105%);
+}
+
+#presentwin:hover {
+    transform: scale(105%, 105%);
+}
+
+#wallpaper {
+    position: absolute;
+    left: 0px;
+    top: -10vw;
+    z-index: -1;
+}
+
+#microsoftcopyright {
+    position: absolute;
+    left: 1rem;
+    top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+#whatisthis {
+    position: absolute;
+    left: 28rem;
+    top: 8.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    width: 65rem;
+}
+
+#curprogs {
+    position: absolute;
+    left: 28rem;
+    top: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    width: 65rem;
+}
