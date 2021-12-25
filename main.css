@@ -120,7 +120,7 @@ body {
 
 #whatisthis {
     position: absolute;
-    left: 28rem;
+    left: 23.5vw;
     top: 8.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -130,10 +130,11 @@ body {
 
 #curprogs {
     position: absolute;
-    left: 28rem;
+    left: 23.5vw;
     top: 17%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 16pt;
     width: 65rem;
 }
+
